@@ -26,3 +26,10 @@
 // for(let u in users){
 //     console.log(users[u]); 
 // }
+
+// // FOR OF
+// const originalArray = ["saad","saad","Sohail","Sohail","Billy","bob"]
+// const uniqueArray = new Set(originalArray)
+// for (const i of uniqueArray) {
+//     console.log(i);
+// }
