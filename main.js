@@ -63,8 +63,27 @@
 // const [resultArray] = filteredArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], 2); 
 // console.log(resultArray);
 
+
 // // REST PATTERN
 // let restPattern = (arguments, ...restOfArguments) => {
 //     return `${arguments} \n\n ${restOfArguments} `
 // }
-// console.log(restPattern("Saad Sohail","HZTECH",19,false,{12:"saad",13:"sohail"}));
+// console.log(restPattern("Saad Sohail", "HZTECH", 19, false, { 12: "saad", 13: "sohail" }));
+
+// throw "JS ERROR"
+
+// if(isNaN("saad")){
+//     // console.log("not a number");
+// }
+
+// // OOPS
+// function myInfo(){
+//     // let name = "Saad Sohail"
+//     this.name = "Saad Sohail"
+//     this.age = 19
+//     // console.log(name,age);
+// }
+// const newMyInfo = new myInfo()
+// console.log(newMyInfo.name);
+// // myInfo()
+// // console.log(myInfo());
