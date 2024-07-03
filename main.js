@@ -53,3 +53,12 @@
 // console.log(a, b, c);
 // [a, b, c] = [b, c, a]
 // console.log(a, b, c);
+
+
+// let filteredArray = (array, numbers) => {
+//     let numArray = new Array()
+//     numArray.push(array.filter((num) => num % numbers === 0))
+//     return numArray
+// }
+// const [resultArray] = filteredArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], 2); 
+// console.log(resultArray);
