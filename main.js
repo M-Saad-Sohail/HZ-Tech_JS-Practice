@@ -33,3 +33,23 @@
 // for (const i of uniqueArray) {
 //     console.log(i);
 // }
+
+
+// DESTRUCTURING
+
+// const myArray = [1,2,3,4,5,6];
+// consty [a,b,c,d,e,f] = myArray
+// console.log(a);
+
+
+// const myArray2 = [1,2,3,4,5,6];
+// const [,,,,,f] = myArray
+// console.log(f);
+
+// SWAPPING USING DESTRucturing
+// let a = 100
+// let b = 200
+// let c = 300
+// console.log(a, b, c);
+// [a, b, c] = [b, c, a]
+// console.log(a, b, c);
