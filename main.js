@@ -93,11 +93,24 @@
 //         this.name = name
 //         this.model = model
 //         this.color = color
-//         this.printsInfo = function printsInfo() {
-//             const str = `My name is: ${this.name}, Model is: ${this.model} and Color is: ${this.color}`
-//             return str
-//         }
+//     }
+//     printsInfo() {
+//         const str = `My name is: ${this.name}, Model is: ${this.model} and Color is: ${this.color}`
+//         return str
 //     }
 // }
 // const corolla = new Car("Corolla", 2019, "Black")
 // console.log(corolla.printsInfo());
+
+
+// // CALLBACKS
+// let mainFunction = (callback) => {
+//     setTimeout(function () {
+//         console.log("This is the main function");
+//         callback()
+//     }, 1500)
+// }
+// let callbackFunction = () => {
+//     console.log(`This is the callback fuction inside mainfunction`);
+// }
+// mainFunction(callbackFunction)
