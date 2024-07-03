@@ -87,3 +87,17 @@
 // console.log(newMyInfo.name);
 // // myInfo()
 // // console.log(myInfo());
+
+// class Car {
+//     constructor(name, model, color) {
+//         this.name = name
+//         this.model = model
+//         this.color = color
+//         this.printsInfo = function printsInfo() {
+//             const str = `My name is: ${this.name}, Model is: ${this.model} and Color is: ${this.color}`
+//             return str
+//         }
+//     }
+// }
+// const corolla = new Car("Corolla", 2019, "Black")
+// console.log(corolla.printsInfo());
